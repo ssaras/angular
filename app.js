@@ -1,5 +1,7 @@
   (function() {
-    var app = angular.module('gemStore', ['store-directives']);
+    var app = angular.module('gemStore', [
+      'parent-product-module'
+    ]);
 
     app.controller('StoreController', [ '$http', function($http){
       var store = this;
