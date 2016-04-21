@@ -11,7 +11,7 @@
 </ul>
 
 <!--  Review Form -->
-<form name="reviewForm" ng-controller="ReviewController as reviewCtrl" ng-submit="reviewCtrl.addReview(product)">
+<form name="reviewForm" ng-controller="ReviewController as reviewCtrl" ng-submit="reviewCtrl.addReview(product)" novalidate>
 
   <!--  Live Preview -->
   <blockquote >
@@ -28,10 +28,10 @@
     </select>
   </fieldset>
   <fieldset class="form-group">
-    <textarea ng-model="reviewCtrl.review.body" class="form-control" placeholder="Write a short review of the product..." title="Review"></textarea>
+    <textarea ng-model="reviewCtrl.review.body" class="form-control ng-pristine" placeholder="Write a short review of the product..." title="Review" required></textarea>
   </fieldset>
   <fieldset class="form-group">
-    <input ng-model="reviewCtrl.review.author" type="email" class="form-control" placeholder="jimmyDean@example.org" title="Email" />
+    <input ng-model="reviewCtrl.review.author" type="email" class="form-control ng-pristine" placeholder="jimmyDean@example.org" title="Email" reqired />
   </fieldset>
   <fieldset class="form-group">
     <input type="submit" class="btn btn-primary pull-right" value="Submit Review" />
