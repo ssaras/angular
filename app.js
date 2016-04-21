@@ -1,6 +1,6 @@
   (function() {
     var app = angular.module('gemStore', [
-      'store-directives'
+      'parent-product-module'
     ]);
 
     app.controller('StoreController', [ '$http', function($http){

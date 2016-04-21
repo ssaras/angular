@@ -1,5 +1,5 @@
 (function(){
-      var app = angular.module('product-descriptions-directive', []);
+      var app = angular.module('product-descriptions-module', []);
 
       app.directive("productDescriptions", function() {
         return {
