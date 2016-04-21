@@ -1,0 +1,19 @@
+
+.ng-invalid.ng-dirty {
+  border:1px solid;
+  border-color:red;
+}
+.ng-valid.ng-dirty {
+  border:1px solid;
+  border-color:green;
+}
+.page-container {
+    width: 80%;
+    margin: 0px auto;
+}
+.img-thumbnails li {
+    display: inline-block;
+}
+.prod-big-img {
+    width: 40%;
+}
