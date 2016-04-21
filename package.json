@@ -1,0 +1,26 @@
+{
+  "name": "angular-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssaras/angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssaras/angular/issues"
+  },
+  "homepage": "https://github.com/ssaras/angular#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect": "^3.4.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.12",
+    "serve-static": "^1.10.2"
+  }
+}
