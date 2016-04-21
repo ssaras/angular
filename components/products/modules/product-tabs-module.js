@@ -3,7 +3,7 @@
   app.directive("productTabs", function() {
     return {
       restrict: "E",
-      templateUrl: "/components/products/product-tabs.html",
+      templateUrl: "/components/products/views/product-tabs.html",
       controller: function() {
         this.tab = 1;
 

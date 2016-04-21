@@ -3,7 +3,7 @@
   app.directive("productSpecs", function() {
     return {
       restrict:"A",
-      templateUrl: "/components/products/product-specs.html"
+      templateUrl: "/components/products/views/product-specs.html"
     };
   });
 })();

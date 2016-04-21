@@ -3,7 +3,7 @@
   app.directive("productReviews", function() {
     return {
       restrict: 'E',
-      templateUrl: "/components/products/product-reviews.html"
+      templateUrl: "/components/products/views/product-reviews.html"
     };
   });
 })();
