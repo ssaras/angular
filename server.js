@@ -1,13 +1,3 @@
-// var connect = require('connect');
-// var serveStatic = require('serve-static');
-
-// // var port = normalizePort(process.env.PORT || '3000');
-// var port = 8080;
-
-// connect().use(serveStatic(__dirname)).listen(port, function(){
-//     console.log('Server running on: ' + port);
-// });
-
 var express = require('express');
 var app = express();
 
@@ -30,4 +20,16 @@ app.get('/', function(req, res) {
 
 app.listen(port, function() {
   console.log('Our app is running on http://localhost:' + port);
+});
+
+
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/test');
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+  for (var i in db) {
+    console.log(db[i]);
+  }
+  console.log("Connected to: " + db['databaseName']);
 });

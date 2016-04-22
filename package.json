@@ -18,9 +18,11 @@
   "homepage": "https://github.com/ssaras/angular#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
+    "browserify": "^13.0.0",
     "connect": "^3.4.1",
     "express": "^4.13.4",
     "mongoose": "^4.4.12",
+    "requirejs": "^2.2.0",
     "serve-static": "^1.10.2"
   }
 }
