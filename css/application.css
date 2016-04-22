@@ -1,4 +1,14 @@
-
+body {
+  background-image: url('../images/green-texture-tile.jpg');
+}
+main.page-container header {
+  background-image: url('../images/wood-tile-2.jpg');
+  height: 7.1em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+  color: white;
+  text-shadow: 2px 3px 5px #000;
+}
 .ng-invalid.ng-dirty {
   border:1px solid;
   border-color:red;
